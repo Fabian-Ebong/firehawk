@@ -1,0 +1,6 @@
+in your gmsa ps scripts, I didn't see where you were setting up what could use the gMSA:
+
+
+https://docs.microsoft.com/en-us/powershell/module/addsadministration/set-adserviceaccount?view=win10-ps
+PrincipalsAllowedToRetrieveManagedPassword
+Specifies the membership policy for systems which can use a group managed service account. For a service to run under a group managed service account, the system must be in the membership policy of the account. This parameter sets the msDS-GroupMSAMembership attribute of a group managed service account object. This parameter should be set to the principals allowed to use this group managed service account.
